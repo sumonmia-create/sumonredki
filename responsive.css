@@ -1,0 +1,84 @@
+@media all and (max-width: 330px){
+	.logo-area{
+	float: none;
+	width: 50%;
+	height: 50px;
+	z-index:1;
+	
+	}
+	.logo-area label{
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 12px;
+
+	}
+	.logo-area label img{
+	width: 20px;
+	height: 20px;
+	margin-top: 0px;
+	margin-left: 1px;
+	}
+	.header-bottom{
+
+	
+	}
+	.header-top i{
+		display: block;
+	}
+	.header-top .main-menu{
+	position: fixed;
+	background: rgba(20, 100, 268, .5);
+	display: none;
+	z-index: 100;
+	}
+	.header-top .main-menu ul{
+	width: 100%;
+	text-align: left;
+	padding: 50px;
+	}
+	.header-top .main-menu ul li{
+	margin-top: 20px;
+	}
+	.header-bottom .content{
+	width: 100%;
+	margin-top: 100px;	
+	}
+	.header-bottom .content h2{
+	font-size: 13px;
+	width: 98%;
+	margin: auto;
+	text-align: center;
+	display: block;
+	}
+	.header-bottom .content h1{
+	font-size: 20px;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	display: block;
+	}
+	.header-bottom .content p{
+	font-size: 10px;
+	width: 90%;
+	}
+	.header-bottom .content a{
+	font-size: 13px;
+	width: 80%;
+	}
+	.header-bottom .img{
+	width: 90%;
+	margin: auto;
+}
+	.header-bottom img{
+	width: 90%;
+	height: 100px;
+	margin-top: 470px;
+	
+
+	}
+	.header-bottom .im{
+	margin-top: 380px;
+	
+	
+	}
+}
