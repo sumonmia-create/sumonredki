@@ -21,7 +21,7 @@
 	width: 15%;
 	height: 50px;
 	z-index:1;
-	
+	overflow: hidden;
 }
 
 .logo-area label{
@@ -35,6 +35,7 @@
 .logo-area label img{
 	width: 30px;
 	height: 30px;
+	margin-top: 10px;
 }
 .header-area .header-top .main-menu{
 	width: 85%;
