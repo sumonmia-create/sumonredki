@@ -26,17 +26,15 @@
 
 .logo-area label{
 	margin-left: 30px;
-	margin-top: 2px;
+	margin-top: 10px;
 	color: #fff;
 	font-size: 20px;
 	font-family: Concert One;
 	font-weight: bold;
-	overflow: hidden;
 }
 .logo-area label img{
 	width: 30px;
 	height: 30px;
-	margin-top: 10px;
 }
 .header-area .header-top .main-menu{
 	width: 85%;
@@ -60,10 +58,10 @@
 	text-decoration: none;
 	font-family: Times New Roman;
 	font-weight: bold;
-	background: #C4E3AC;
+	background: #575759;
 	padding: 5px 10px;
 	position: relative;
-	transition: .3s;
+	transition: .4s;
 }
 .header-top .main-menu ul li a:before{
 	content: '';
@@ -72,10 +70,10 @@
 	left:0;
 	right: 0;
 	bottom: 0;
-	outline: 2px solid transparent;
+	outline: 4px solid transparent;
 }
 .header-top .main-menu ul li a:hover{
-	outline: 2px solid #C4E3AC;
+	outline: 3px solid #575759;
 	outline-offset: 5px;
 }
 /* bottom area */
@@ -84,7 +82,7 @@
 	padding: 0;
 	width: 100%;
 	background: #B10101;
-	height: 620px;
+	height: 580px;
 	z-index: 1;
 	position: relative;
 	overflow: hidden;
