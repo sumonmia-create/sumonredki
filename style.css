@@ -18,7 +18,7 @@
 .logo-area{
 	float: left;
 	background: #576898;
-	width: 30%;
+	width: 22%;
 	height: 50px;
 	z-index:1;
 	
@@ -31,6 +31,7 @@
 	font-size: 20px;
 	font-family: Concert One;
 	font-weight: bold;
+	overflow: hidden;
 }
 .logo-area label img{
 	width: 30px;
@@ -38,7 +39,7 @@
 	margin-top: 10px;
 }
 .header-area .header-top .main-menu{
-	width: 70%;
+	width: 78%;
 	margin: 0;
 	padding: 0;
 	
