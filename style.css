@@ -26,7 +26,7 @@
 
 .logo-area label{
 	margin-left: 30px;
-	margin-top: 10px;
+	margin-top: 3px;
 	color: #fff;
 	font-size: 20px;
 	font-family: Concert One;
@@ -35,7 +35,7 @@
 .logo-area label img{
 	width: 30px;
 	height: 30px;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 .header-area .header-top .main-menu{
 	width: 70%;
