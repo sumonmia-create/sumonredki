@@ -93,19 +93,8 @@ body{
 	margin: auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #fff;
-	position: relative;
-}
-.banner h1:after{
-	content: '';
-	width: 10%;
-	height: 4px;
-	bottom: -2px;
-	display: block;
-	margin: auto;
-	text-align: center;
-	background: linear-gradient(to left, yellow, #003490, #202020);
-	position: absolute;
+	border-bottom: 2px solid #fff;
+
 }
 
 .menu .box{
