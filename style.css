@@ -18,7 +18,7 @@
 .logo-area{
 	float: left;
 	background: #576898;
-	width: 15%;
+	width: 30%;
 	height: 50px;
 	z-index:1;
 	
@@ -37,7 +37,7 @@
 	height: 30px;
 }
 .header-area .header-top .main-menu{
-	width: 85%;
+	width: 70%;
 	margin: 0;
 	padding: 0;
 	
