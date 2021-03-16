@@ -229,6 +229,7 @@
 	margin: 0;
 	padding-top: 20px;
 	padding-bottom: 40px;
+	overflow: hidden;
 }
 .contact-area h2{
 	color: #fff;
@@ -271,4 +272,66 @@
 	background: #402080;
 	color: #fff;
 	border: none;
+	
+}
+.social{
+	margin-top: 30px;
+}
+.contact-area .social li{
+	margin-left:30px;
+	display: inline-block;
+}
+.contact-area .social a{
+	width: 100px;
+	height: 50px;
+	color: #fff;
+	margin-left: 20px;
+	background: #102030;
+	padding: 5px 10px;
+	text-decoration: none;
+	transform: rotate(-20deg)  skewX(15deg) translate(0,0);
+	transition: .5s;
+	display: block;
+	text-align: left;
+	box-shadow: -20px 20px 20px black;
+}
+.contact-area .social a:before{
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: -20px;
+	height: 100%;
+	width: 20px;
+	background: #b1b1b1;
+	transform: .5s;
+	transform: rotate(0deg) skewY(-45deg);
+	
+}
+.contact-area .social a:after{
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: -10px;
+	height: 20px;
+	width: 100%;
+	background: #b1b1b1;
+	transform: .8s;
+	transform: rotate(0deg) skewX(-45deg);
+}
+.contact-area .social a:hover{
+	transform: rotate(-25deg) skew(20deg) translate(18px,-15px);
+	box-shadow: -60px 60px 60px rgba(0,0,0,.5);
+	color: black;
+}
+.contact-area .social li:hover .fa{
+	color: #fff;
+}
+.contact-area .social li:hover a{
+	background: red;
+}
+.contact-area .social li:hover a:before{
+	background: red;
+}
+.contact-area .social li:hover a:after {
+	background: red;
 }

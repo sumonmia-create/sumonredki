@@ -1,4 +1,4 @@
-@media all and (max-width: 375px){
+@media all and (max-width: 575px){
 	.logo-area{
 	float: none;
 	width: 50%;
@@ -39,6 +39,9 @@
 	}
 	.header-top .main-menu ul li{
 	margin-top: 20px;
+	}
+	.header-top .main-menu ul li a{
+	font-size: 13px;
 	}
 	.header-bottom .con{
 	width: 100%;
@@ -86,5 +89,17 @@
 	margin-top: 380px;
 	
 	
+	}
+	.contact-area .social ul li{
+	margin-top:30px;
+	display: block;
+	
+	}
+	.social ul{
+	margin: auto;
+	width: 30%;
+	}
+	.social{
+	width: 50%;
 	}
 }
