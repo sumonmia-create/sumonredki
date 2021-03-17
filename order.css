@@ -167,4 +167,52 @@ margin-top: 20px;
 	.box{
 		width: 100%;
 	}
+	@media all and (max-width: 575px){
+	.logo-area{
+	float: none;
+	width: 50%;
+	height: 50px;
+	z-index:1;
+	overflow: hidden;
+	
+	}
+	.logo-area label{
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 12px;
+
+	}
+	.logo-area label img{
+	width: 20px;
+	height: 20px;
+	margin-top: 0px;
+	margin-left: 1px;
+	}
+	.header-bottom{
+
+	
+	}
+	.header-top i{
+		display: block;
+	}
+	.header-top .main-menu{
+	position: fixed;
+	background: rgba(20, 100, 268, .5);
+	display: none;
+	z-index: 100;
+	width: 100%;
+	}
+	.header-top .main-menu ul{
+	width: 100%;
+	text-align: left;
+	padding: 50px;
+	}
+	.header-top .main-menu ul li{
+	margin-top: 20px;
+	display: block;
+	}
+	.header-top .main-menu ul li a{
+	font-size: 13px;
+	}
+	
 }
